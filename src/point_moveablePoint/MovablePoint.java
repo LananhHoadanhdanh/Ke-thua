@@ -44,16 +44,16 @@ public class MovablePoint extends Point{
     @Override
     public String toString() {
         return "MovablePoint {(x,y) = " +
-                "(" + x +
-                "," + y +
+                "(" + getX() +
+                "," + getY() +
                 "), speed = (" + xSpeed +
                 "," + ySpeed +
                 '}';
     }
 
     public void move() {
-        x += xSpeed;
-        y += ySpeed;
-        getSpeed();
+        float x = getX() + xSpeed;
+        float y = getY() + ySpeed;
+        setXY(x, y);
     }
 }

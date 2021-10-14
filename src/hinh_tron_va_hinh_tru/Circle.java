@@ -1,8 +1,8 @@
 package hinh_tron_va_hinh_tru;
 
 public class Circle {
-    int radius;
-    String color;
+    private int radius;
+    private String color;
 
     public Circle() {
     }
@@ -39,8 +39,8 @@ public class Circle {
     @Override
     public String toString() {
         return "Circle {" +
-                "radius=" + radius +
-                ", color='" + color + '\'' +
+                "radius=" + getRadius() +
+                ", color='" + getColor() + '\'' +
                 '}';
     }
 }

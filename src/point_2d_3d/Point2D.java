@@ -1,7 +1,7 @@
 package point_2d_3d;
 
 public class Point2D {
-    float x,y;
+    private float x,y;
     public Point2D() {
         x = 0.0f;
         y = 0.0f;

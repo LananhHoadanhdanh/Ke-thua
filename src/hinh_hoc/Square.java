@@ -33,8 +33,8 @@ public class Square extends Rectangle {
     public String toString() {
         return "Square{" + "side='" + getSide() + '\'' +
                 ", which is a subclass of " +
-                "color='" + color + '\'' +
-                ", filled=" + filled +
+                "color='" + getColor() + '\'' +
+                ", filled=" + isFilled() +
                 '}';
     }
 }

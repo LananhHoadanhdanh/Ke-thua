@@ -1,7 +1,7 @@
 package point_moveablePoint;
 
 public class Point {
-    float x,y;
+    private float x,y;
 
     public Point() {
         x = 0.0f;

@@ -45,8 +45,8 @@ public class Rectangle extends Shape{
         return "Rectangle {" +
                 "width=" + width +
                 ", height=" + height +
-                ", color='" + color + '\'' +
-                ", filled=" + filled +
+                ", color='" + getColor() + '\'' +
+                ", filled=" + isFilled() +
                 '}';
     }
 }
