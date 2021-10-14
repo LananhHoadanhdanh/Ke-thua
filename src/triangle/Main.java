@@ -9,7 +9,7 @@ public class Main {
         double side2 = scanner.nextDouble();
         System.out.println("Nhập cạnh thứ 3: ");
         double side3 = scanner.nextDouble();
-        if (side1 < 0 || side2 < 0 || side3 < 0) {
+        if (side1 <= 0 || side2 <= 0 || side3 <= 0) {
             System.out.println("Đây không phải 3 cạnh của một tam giác.");
         } else {
             if (side1 + side2 > side3 && side1 + side3 > side2 && side3 + side2 > side1) {
