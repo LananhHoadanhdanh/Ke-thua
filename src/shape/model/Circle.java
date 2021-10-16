@@ -1,6 +1,6 @@
-package hinh_hoc;
+package shape.model;
 
-public class Circle extends Shape{
+public class Circle extends Shape {
     private double radius = 1;
     public Circle() {
 

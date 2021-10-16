@@ -2,8 +2,8 @@ package hinh_tron_va_hinh_tru;
 
 public class Cylinder extends Circle{
     private int height;
-    public Cylinder() {
 
+    public Cylinder() {
     }
 
     public Cylinder(int height) {
@@ -24,7 +24,7 @@ public class Cylinder extends Circle{
         return "Cylinder {" +
                 "radius=" + getRadius() +
                 ", color='" + getColor() + '\'' +
-                ", height=" + height +
+                ", area=" + getVolume() +
                 '}';
     }
 }

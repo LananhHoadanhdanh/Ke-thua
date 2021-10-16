@@ -1,6 +1,11 @@
-package hinh_hoc;
+package shape.service;
 
-public class Main {
+import shape.model.Circle;
+import shape.model.Rectangle;
+import shape.model.Shape;
+import shape.model.Square;
+
+public class ShapeTest {
 
     public static void main(String[] args) {
         Shape shape1 = new Shape();

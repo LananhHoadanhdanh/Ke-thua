@@ -1,6 +1,6 @@
-package hinh_hoc;
+package shape.model;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
     private double width, height;
     public Rectangle() {
         width = 1;

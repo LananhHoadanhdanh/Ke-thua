@@ -1,4 +1,4 @@
-package hinh_hoc;
+package shape.model;
 
 public class Shape {
     private String color;

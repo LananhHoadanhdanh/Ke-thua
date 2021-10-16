@@ -1,6 +1,6 @@
 package triangle;
 
-import hinh_hoc.Shape;
+import shape.model.Shape;
 
 public class Triangle extends Shape {
     private double side1 = 1;

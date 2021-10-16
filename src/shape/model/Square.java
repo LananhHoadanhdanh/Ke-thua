@@ -1,4 +1,4 @@
-package hinh_hoc;
+package shape.model;
 
 public class Square extends Rectangle {
     public Square() {

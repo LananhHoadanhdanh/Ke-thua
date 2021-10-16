@@ -8,6 +8,5 @@ public class Main {
 
         Cylinder cylinder1 = new Cylinder(7, "red", 5);
         System.out.println(cylinder1);
-        System.out.println("Thể tích: " + cylinder1.getVolume());
     }
 }
