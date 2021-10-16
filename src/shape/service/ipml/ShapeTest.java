@@ -1,4 +1,4 @@
-package shape.service;
+package shape.service.ipml;
 
 import shape.model.Circle;
 import shape.model.Rectangle;
@@ -21,7 +21,7 @@ public class ShapeTest {
         System.out.println(rectangle2);
         System.out.println(rectangle1.getPerimeter());
 
-        Square square1 = new Square();
+        Square square1 = new Square(4);
         System.out.println(square1);
     }
 }

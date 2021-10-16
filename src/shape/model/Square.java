@@ -19,19 +19,20 @@ public class Square extends Rectangle {
     public double getSide() {
         return getWidth();
     }
+
     @Override
-    public void setWidth(double width) {
-        setSide(width);
+    public double getArea() {
+        return getSide()*getSide();
     }
 
     @Override
-    public void setHeight(double height) {
-        setSide(height);
+    public double getPerimeter() {
+        return getSide()*4;
     }
 
     @Override
     public String toString() {
-        return "Square{" + "side='" + getSide() + '\'' +
+        return "Square {" + "side='" + getSide() + '\'' +
                 ", which is a subclass of " +
                 "color='" + getColor() + '\'' +
                 ", filled=" + isFilled() +

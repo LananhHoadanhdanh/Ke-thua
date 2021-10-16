@@ -1,4 +1,4 @@
-package shape.service;
+package shape.service.ipml;
 
 import shape.model.Circle;
 
