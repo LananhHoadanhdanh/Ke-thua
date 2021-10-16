@@ -13,6 +13,10 @@ public class ResizeableSquare extends Square implements Resizeable {
     public ResizeableSquare() {
     }
 
+    public ResizeableSquare(String color, boolean filled, double side) {
+        super(color, filled, side);
+    }
+
     @Override
     public String toString() {
         return "Square {" +

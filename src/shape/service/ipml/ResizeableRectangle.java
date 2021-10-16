@@ -17,6 +17,10 @@ public class ResizeableRectangle extends Rectangle implements Resizeable {
         super(width, height);
     }
 
+    public ResizeableRectangle(String color, boolean filled, double width, double height) {
+        super(color, filled, width, height);
+    }
+
     @Override
     public String toString() {
         return "Rectangle {" +
